@@ -14,8 +14,6 @@ inspired by my love of FRC swerve modules and drive trains, they're so freaking 
 
 # 2026-06-25: some pretty important CAD fixes, and a chasis!
 
-**Total time spent: 75 hours**
-
 hi! I finally did the final changes on CAD, im pretty sure, ill know if theyre perfect when I print the fixed parts, should work though cad looks good. 
 
 I fixed the CAD issues previously stated in a earlier post, which included the uncentered bevel gear, loosely meshed drive gears, and loosely meshing bevel gear in the drive system. all the gears in fusion mesh properly now, and the meshing is good in the drive bevel system at all rotations, I just made sure. Im going to update the GITHUB fusion files. 
@@ -61,7 +59,6 @@ bearings for inner drive mechanism (uxcell 12Pcs MR117ZZ Small Bearing, 7mm ID 1
 
 # 2026-06-16: code modifications!
 
-**Total time spent: 24 hours**
 
 after coding the motors to move with joystick input, I came across some issues:
 
@@ -91,13 +88,10 @@ these changes cleaned up my 12c bus, which allowed the important data needed for
 
 # 2026-06-16: breadboarding, coding, and cad problems!
 
-**Total time spent: 75 hours**
-
 I began to breadboard the electronics for my swerve modules, and I also did some coding to get them to work. code screenshots coming soon. after assembling v5 of my swerves, I unfortunatley discovered that my gears were skipping and were unable to drive when rotated at some points. after inspecting my cad file, I discovered that my bevel gear was not perfectly centered, and my two gears that translate that bevel motion to spin the wheel werent meshing close enough. oops!! so, yesterday I fixed the cad, But I plan to use autodesk's motion features to test my gears before printing, to save materials and time :-). I also want to look into methods of reducing friction, to achieve higher speeds. I want this thing to be super fast lol. [Screenshot 2026-06-15 at 11.27.08 PM.png](https://cdn.hackclub.com/019ece78-a1a3-7471-b8bf-baedbc948f1d/Screenshot%202026-06-15%20at%2011.27.08%E2%80%AFPM.png)![Screenshot 2026-06-15 at 11.26.52 PM.png](https://cdn.hackclub.com/019ece78-b89e-7fa0-bde1-0f52f0c8cffd/Screenshot%202026-06-15%20at%2011.26.52%E2%80%AFPM.png)
 
 # 2026-06-10: swerve module cad V5 done!
 
-**Total time spent: 75 hours**
 
 after 5 versions, the cad is finally ready to print! (for software and breadboarding atleast, will make changes to the housing later so i can attach it to a chasis, once I know how big my pcb will be.) STL files are available on the github repository. will start on software and breadboarding shortly!!![Screenshot 2026-06-09 at 10.08.25 PM.png](https://cdn.hackclub.com/019eaf53-339b-7378-833b-d1d1aa4056f7/Screenshot%202026-06-09%20at%2010.08.25%E2%80%AFPM.png)
 
