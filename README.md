@@ -11,9 +11,14 @@ thank you for your time,
 
 inspired by my love of FRC swerve modules and drive trains, they're so freaking cool. 
 this project is documented on forge, stardance, and horizons. 
+
 AI declaration for hackclub
+
 I worked with claude to turn my google docs parts list into a BOM.CSV file. I also use gemini or other chatbots to help me write code and understand data protocols. I never copy and paste exactly what is given to me without understanding what it is or why, but instead use AI as a learning tool to help me better learn and understand programming. especially as a new programmer, I am entirely self taught using online resources, and AI has been a very useful tool for my learning. 
 
+here is a 3d demo of my cad, stl files are available in this repository. 
+
+https://a360.co/4gOPGcb
 
 # 2026-06-25: some pretty important CAD fixes, and a chasis!
 
