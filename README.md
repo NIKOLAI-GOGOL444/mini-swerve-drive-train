@@ -1,3 +1,5 @@
+IMPORTANT NOTE FOR OITPOT REVIEWERS: please ignore the pcb stuff in my BOM.CSV and files and stuff. I do not have a pcb design yet, so I will not be requesting funding for that part of this project, and will request for it as a sepreate project at a later time. 
+
 hi!
 
 im making a mini swerve drive train inspired by FRC swerve drive trains, because they just make me so happy lol.
