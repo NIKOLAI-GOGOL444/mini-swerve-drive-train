@@ -11,6 +11,9 @@ thank you for your time,
 
 inspired by my love of FRC swerve modules and drive trains, they're so freaking cool. 
 this project is documented on forge, stardance, and horizons. 
+I would most reccomend checking out stardance, because that is where this project is most actively docdumented. 
+https://stardance.hackclub.com/projects/25609
+ive logged around 25 hours as I write this, however I only began logging maybe two weeks ago, and in reality this project has taken MUCH much longer than that lol. 
 
 AI declaration for hackclub
 
@@ -33,7 +36,6 @@ also, I made a chasis for my swerve modules. its made to be pretty lightweight, 
 
 # 2026-06-17: origins
 
-**Total time spent: 100 hours**
 
 I thought it would be a good idea to mention how I started this project, as I only started documenting it here once I heard about this website. my first steps were going to the fab shop at robotics club, and looking at swerve modules, aswell as taking photos and videos. I moved around the wheel and rolled it, to get a better understanding of the mechanisms that allowed for the consecutive steering and driving. I also refrenced 3d models online, and I defenitley reccomend checking out NERDSPARK 9312s nerd swerve modules, their ingenious idea of using two gear sets with the same ratio, but one smaller than the other, to create a equal spinning motion the encoders could measure, is truly revolutionary. prior to cadding my modules, I chose electronics based off of what would be found on a real frc bot, that were also cost effective. I also plan to design a pcb when I have a complete breadboarded system, and plan to keep these parts for breadboarding. 
 
