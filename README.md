@@ -25,5 +25,9 @@ here is a 3d demo of my cad, stl files are available in this repository.
 
 https://a360.co/4gOPGcb
 
-0at%2010.08.25%E2%80%AFPM.png)
+<img width="573" height="521" alt="Screenshot 2026-07-09 at 3 30 32 AM" src="https://github.com/user-attachments/assets/b358df51-cc4b-4cd3-b457-2ad10c9ba314" />
+
+
+<img width="658" height="471" alt="Screenshot 2026-07-09 at 3 30 18 AM" src="https://github.com/user-attachments/assets/d16bb19c-7df7-4f01-84ec-a5cd4b8bd13f" />
+
 
