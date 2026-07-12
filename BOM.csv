@@ -1,19 +1,14 @@
-Category,Item,Voltage,Scope,Qty,Est. Unit Price,Est. Total Price,Source / Notes
-Compute (PCB chip),ESP32-S3-WROOM-1-N16R8 module,3.3V logic,Central x1,1,4.20,4.20,Reflowed on custom PCB via assembly service (Extended part - setup fee applies)
-Compute (PCB chip),TCA9548A I2C mux chip,3.3V,Central x1,1,1.50,1.50,Reflowed on PCB (Extended part)
-Compute (PCB chip),IMU/gyro chip (e.g. ICM-20689/BMI270),3.3V,Central x1,1,2.75,2.75,"Reflowed on PCB (Extended part) - spec a currently-in-production part, not MPU-6050 clone"
-Compute (PCB chip),"Buck regulator chip, 7.4V->3.3V",-,Central x1,1,1.00,1.00,Reflowed on PCB
-Power,"7.4V 2S LiPo battery (2200-3000mAh, XT60)",7.4V,Central x1,1,19.99,19.99,"Connects via screw terminal/XT60 - hand-wired, not part of PCB assembly"
-Drive,Drive motor w/ encoder,7.4V motor / 3.3V encoder,Per module,4,12.00,48.00,"Off-board, wired in via connector"
-Drive/Steer (PCB chip),DRV8833 motor driver chip,7.4V in / 3.3V logic in,Per module (1 chip drives both motors),4,1.25,5.00,Reflowed on PCB (Extended part)
-Steer,Steer motor,7.4V,Per module,4,9.50,38.00,"Off-board, wired in via connector"
-Steer,Steer shaft encoder breakout (AS5600-style),"3.3V, I2C",Per module,4,7.49,29.96,"Pre-made breakout - plugs into PCB via header, NOT part of the SMT assembly run"
-Bearings,"6900-2RS bearing (10x22x6mm, large)",N/A,Per module,4,1.10,4.40,ASSUMPTION: 1/module - confirm vs your CAD
-Bearings,10x15x4mm bearing (smaller),N/A,Per module,4,1.05,4.20,ASSUMPTION: 1/module
-Bearings,"MR105-2RS bearing (5x10x4mm, even smaller)",N/A,Per module,4,0.85,3.40,ASSUMPTION: 1/module
-Bearings,"7mm ID bearing, inner drive mechanism",N/A,Per module,4,1.10,4.40,ASSUMPTION: 1/module
-Fabrication,3D printing filament (chassis + 4x module housings),-,Central,1,25.00,25.00,"Own printer, ~700g-1kg PETG/PLA"
-Fabrication,"PCB bare board fab (2-layer, 5pc qty)",-,Central,1,25.00,25.00,JLCPCB/PCBWay standard fab
-Fabrication,PCB passives/headers/connectors (non-assembled),-,Central,1,10.00,10.00,"Resistors, caps, pin headers for encoder breakouts, terminal blocks"
-Fabrication,Extended-part setup fees (~8 unique parts),-,Central,1,20.00,20.00,"One-time fee per non-basic part in assembly house library, ~$2-3 each"
-Fabrication,SMT assembly/placement fee (5 boards),-,Central,1,22.00,22.00,Per-board placement + reflow charge
+Category,Item,Voltage,Scope,Qty,Est. Unit Price,Est. Total Price,Source Link,Notes
+Compute,ESP32-S3-DevKitC-1 N16R8 dev board,3.3V logic / 5V USB,Central x1,1,16.99,16.99,https://www.amazon.com/dp/B0DKF4DSQ4,Main controller
+Sensing,TCA9548A 8-Channel I2C Multiplexer breakout,3.3V,Central x1,1,8.49,8.49,https://www.amazon.com/dp/B0FBGC5BRP,Needed since 4x steer encoders likely share default I2C address
+Sensing,MPU-6050 Gyroscope/Accelerometer breakout (GY-521),3.3V,Central x1,1,6.99,6.99,https://www.amazon.com/dp/B01DK83ZYQ,Confirm logic-out is 3.3V
+Power,"7.4V 2S LiPo battery (2200-3000mAh, XT60)",7.4V,Central x1,1,19.99,19.99,(generic - link not provided),Feeds drive+steer controllers; needs step-down to 3.3V for logic
+Drive,Drive motor w/ encoder,7.4V motor / 3.3V encoder,Per module,4,12.00,48.00,https://www.amazon.com/dp/B0GSJSMNC9,Do not backfeed 3.3V encoder line into 7.4V motor leads
+Drive,Drive motor controller breakout (DRV8833-class),7.4V in / logic PWM in,Per module,4,9.99,39.96,https://www.amazon.com/dp/B0DX6BNV53,Sold as 5-pack (1 spare). Check board's logic-input voltage tolerance vs ESP32 3.3V GPIO
+Steer,Steer motor,7.4V,Per module,4,9.50,38.00,(Amazon cart link not resolvable),Same controller family as drive
+Steer,Steer shaft encoder breakout (AS5600-style),"3.3V, I2C",Per module,4,7.49,29.96,https://www.amazon.com/dp/B0CM3C8KFT,Goes through TCA9548A mux
+Bearings,"6900-2RS bearing (10x22x6mm, large)",N/A,Per module,4,1.10,4.40,https://www.amazon.com/dp/B0CRLFSLWP,ASSUMPTION: 1/module - confirm vs your CAD
+Bearings,10x15x4mm bearing (smaller),N/A,Per module,4,1.05,4.20,https://www.amazon.com/dp/B0DJQFKSBZ,ASSUMPTION: 1/module
+Bearings,"MR105-2RS bearing (5x10x4mm, even smaller)",N/A,Per module,4,0.85,3.40,https://www.amazon.com/dp/B082PRVZ7B,ASSUMPTION: 1/module
+Bearings,"7mm ID bearing, inner drive mechanism",N/A,Per module,4,1.10,4.40,https://www.amazon.com/dp/B0F4XYQ2KP,ASSUMPTION: 1/module
+Fabrication,3D printing filament (chassis + 4x module housings/lids),-,Central,1,25.00,25.00,-,"~700g-1kg PETG/PLA, own printer"
