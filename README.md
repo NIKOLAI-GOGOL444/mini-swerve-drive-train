@@ -1,4 +1,5 @@
 IMPORTANT NOTE FOR OUTPOST REVIEWERS: please ignore the pcb stuff in my BOM.CSV and files and stuff. I do not have a pcb design yet, so I will not be requesting funding for that part of this project, and will request for it as a sepreate project at a later time. 
+NEW NOTE: I have edited the BOM.csv file to exclude pcb stuff. 
 
 hi!
 
