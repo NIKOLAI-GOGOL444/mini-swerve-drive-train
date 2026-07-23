@@ -1,0 +1,2 @@
+hi!
+this file is currently empty as I submit for horizons, because I am currently working on the conroller pcb and havent started the robot control pcb yet. that will be the next step after I finish the controller pcb, but Im adding this file now and will add to it later. 
