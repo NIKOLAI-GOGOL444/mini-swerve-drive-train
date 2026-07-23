@@ -1,5 +1,15 @@
 all logs from forge that predate my stardance documentation are here! if you want to see more recent logs, please visit my stardance page. the link to that is in the readme.md file. 
 
+FOR HORIZONS REVIEWERS
+https://lapse.hackclub.com/user/@nikolai_gogol444
+that is the link to my lapse page. all pcb time lapses are easily found beacause they are conviniently named. the EARLIEST time lapse that Is part of my horizons project and is documented on the code file that I am attaching my horizons time lapses to is schematic design from july 20, 2026 at 3:22am. any timelapse that predates that Is asociated with my stardance project and can be ignored. I Will start documenting journal entries for my horizons project here.
+
+ENTRY 1:
+I didnt know I was supposed to do journal entries, so Ill do one big one here to document the past 3 or so days of pcb work, and go consistently from there.
+I first began by doing a quick 20 minute KICAD tutorial video, as I do before using any new software, to figure out how to use it. then, I just kind of began working and learning the software on the way. I started by looking up schematics for the breakout boards that I had used to breadboard my project, so I could figure out what chips and components id need. I then went to the data sheet for the chips and replicated the ideal pcb setups shown in each datasheet on my board, and using google gemini for input and questions as I went. I wouldnt reccomend entirely trusting AI to help with pcb design, because It was very hard getting the AI to interpret my schematic correctly, and it would identify things that were perfectly fine as errors, vice versa. after that, I had a complete controller schematic with two joysticks, a 2.4ghz RF system based on the NRF24L01 PA LNA breakout board, a power distribution system that charges a 3.7v li po battery from onboard usbc ports I included for charging, serial data and code flashing, and powers the board using said battery, and boot and reset buttons. a picture of my schematic is available in the controller pcb stuff file. 
+I then went to begin routing, when I got some errors, which I eventually solved by adding pads that were missing in the schematics, usually EPADs and ground pads, and routing them to where they were supposed to go, and changing my ESP32 S3 WROOM N16R8 schematic to the generic ESP32 S3 WROOM 1 schematic, which was identical to the custom footprint I got on the internet and was native to KICAD, which fixed the errors. I then began organizing my components on the board, and today I will be designing the trace on the RF stuff on the board to have exactly 50 OHMs of resistance and routing all my components, new entry coming soon. 
+
+
 # 2026-06-25: some pretty important CAD fixes, and a chasis!
 
 hi! I finally did the final changes on CAD, im pretty sure, ill know if theyre perfect when I print the fixed parts, should work though cad looks good. 
