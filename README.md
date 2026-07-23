@@ -1,6 +1,9 @@
 IMPORTANT NOTE FOR OUTPOST REVIEWERS: please ignore the pcb stuff in my BOM.CSV and files and stuff. I do not have a pcb design yet, so I will not be requesting funding for that part of this project, and will request for it as a sepreate project at a later time. 
 NEW NOTE: I have edited the BOM.csv file to exclude pcb stuff. 
 
+IMPORTANT NOTE FOR HORIZONS REVIEWERS:
+my project for horizons is the pcbs that go with this robot, I am submitting them as a seperate hardware project that I will not need funding for. I am documenting my hours for the pcbs seperate from the code file I used on the robots cad and coding, however I will be using the same github for both projects just to keep things simple. so ignore all the cad and code stuff, and just look at the PCB stuff, because thats my horizons project. I am currently in the process of tracing the controller PCB, so all I have right now as I submit is the schematic and maybe a unfinished gerber file, but I will keep working on the project and add to my repo as I go. if you have any questions just reach me on the hackclub slack. 
+
 hi!
 
 im making a mini swerve drive train inspired by FRC swerve drive trains, because they just make me so happy lol.
@@ -9,7 +12,7 @@ I hope to figure it out as I work on this project.
 if you need anything or have any questions about my project, id be happy to help! just contact me however that works on git idk.
 
 thank you for your time,
--GOOGLE!
+-NIKOLAI!
 # Mini Swerve Drive Train
 
 inspired by my love of FRC swerve modules and drive trains, they're so freaking cool. 
