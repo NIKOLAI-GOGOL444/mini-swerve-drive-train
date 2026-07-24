@@ -6,6 +6,13 @@ my project for horizons is the pcbs that go with this robot, I am submitting the
 ALSO, the BOM.CSV you see when you open my repo isnt the one for this project, that is for my outpost project. please look in my controller pcb stuff file, you will find my horizons BOM.CSV file in there. 
 STEPS TO REPRODUCE:
 when pcbs are finished, someone can recreate my PCBS by going online to a pcb manufacturing website, uploading the gerber files for my controller and robot control board I will eventually put in my repo, and ordering them, then either choosing to assemble the pcbs themselves or buying it preassembled. if they wanted recreate the FULL ROBOT (NOT INCLUDED WITH MY HORIZONS SUBMISSION, INCLUDING FYI) they would then flash the code in my repo to their PCBs, then 3d print the cad files with either their own 3d printer or through a manufacturing sight, assembling based off of the cad images ive attached for the project (i think I will add an assembly tutorial eventually), then plugging in batteries and then they would have my robot! 
+
+3D RENDERS (PLEASE NOTE THAT THE CONTROLLER PCB ISNT FINISHED, AND I HAVENT STARTED THE ROBOT PCB.[swervecontrollerPCBv1.pdf](https://github.com/user-attachments/files/30342656/swervecontrollerPCBv1.pdf)
+<img width="1470" height="956" alt="Screenshot 2026-07-23 at 6 22 36 AM" src="https://github.com/user-attachments/assets/c5f2b0bd-dd14-45d6-8c25-482454f0edcf" />
+<img width="1470" height="956" alt="Screenshot 2026-07-24 at 6 09 05 AM" src="https://github.com/user-attachments/assets/da188812-f2c1-4bf5-b7f6-cbe7a07eeddd" />
+<img width="1470" height="956" alt="Screenshot 2026-07-24 at 6 09 14 AM" src="https://github.com/user-attachments/assets/98af6821-ccd7-4822-a2ee-e83853990cf1" />
+
+
 hi!
 
 im making a mini swerve drive train inspired by FRC swerve drive trains, because they just make me so happy lol.
