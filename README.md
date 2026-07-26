@@ -2,6 +2,8 @@ IMPORTANT NOTE FOR OUTPOST REVIEWERS: please ignore the pcb stuff in my BOM.CSV 
 NEW NOTE: I have edited the BOM.csv file to exclude pcb stuff. 
 
 IMPORTANT NOTE FOR HORIZONS REVIEWERS:
+NEW NOTE AFTER SECOND REJECTION: 
+my pcb wasnt routed yet because this project is currently a work in progress. I am submitting it fairly early on because I want to qualify intime to go to horizons polaris (I have an extension to qualify until july 31st.) I have done work on my pcb and almost finished the routing, it is pretty close to done, just gotta double check everything and fix some small issues. just please understand that this pcb and its gerber files arent finsished, which explains the missing routing and anything you may find in this file. im attaching the newer gerbers. 
 my project for horizons is the pcbs that go with this robot, I am submitting them as a seperate hardware project that I will not need funding for. I am documenting my hours for the pcbs seperate from the code file I used on the robots cad and coding, however I will be using the same github for both projects just to keep things simple. so ignore all the cad and code stuff, and just look at the PCB stuff, because thats my horizons project. I am currently in the process of tracing the controller PCB, so all I have right now as I submit is the schematic and maybe a unfinished gerber file, but I will keep working on the project and add to my repo as I go. if you have any questions just reach me on the hackclub slack. 
 ALSO, the BOM.CSV you see when you open my repo isnt the one for this project, that is for my outpost project. please look in my controller pcb stuff file, you will find my horizons BOM.CSV file in there. 
 STEPS TO REPRODUCE:
