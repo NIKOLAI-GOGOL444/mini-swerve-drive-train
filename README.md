@@ -2,6 +2,7 @@ IMPORTANT NOTE FOR OUTPOST REVIEWERS: please ignore the pcb stuff in my BOM.CSV 
 NEW NOTE: I have edited the BOM.csv file to exclude pcb stuff. 
 
 IMPORTANT NOTE FOR HORIZONS REVIEWERS:
+UPDATE: as of tuesday july 28 1:18 am, I have finished the controller pcb and uploaded the final designs file to the repo. it is now ready to be purchased.
 UPDATE: as of monday july 27th 11:36 pm, I have uploaded new gerbers that are of the pcb fully routed and corrected against the DRC. if wanted, the pcb could now be purchased and it would function, but the silkscreen labels would be a mess. im now going to arrange the silkscreen, then begin on the swerve drive brain pcb. 
 NEW NOTE AFTER SECOND REJECTION: 
 my pcb wasnt routed yet because this project is currently a work in progress. I am submitting it fairly early on because I want to qualify intime to go to horizons polaris (I have an extension to qualify until july 31st.) I have done work on my pcb and almost finished the routing, it is pretty close to done, just gotta double check everything and fix some small issues. just please understand that this pcb and its gerber files arent finsished, which explains the missing routing and anything you may find in this file. I am actively working on this project, so please give me grace with any structural errors that may be in the pcb and help me make the polaris deadline. im attaching the newer gerbers. 
