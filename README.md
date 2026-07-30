@@ -2,6 +2,7 @@ IMPORTANT NOTE FOR OUTPOST REVIEWERS: please ignore the pcb stuff in my BOM.CSV 
 NEW NOTE: I have edited the BOM.csv file to exclude pcb stuff. 
 
 IMPORTANT NOTE FOR HORIZONS REVIEWERS:
+NOTE: i am ONLY trying to submit the CONTROLLER pcb right now. all my hours have been working on that, do not reject my project under the robot pcb stuff not being in here, thats because it isnt finished yet, ill submit that at a later date, just worry about the controller stuff. 
 UPDATE: as of tuesday july 28 1:18 am, I have finished the controller pcb and uploaded the final designs file to the repo. it is now ready to be purchased.
 <img width="1470" height="956" alt="Screenshot 2026-07-28 at 10 36 25 AM" src="https://github.com/user-attachments/assets/b71b5da1-416d-4a28-b90e-c40c97f113d9" />
 <img width="1470" height="956" alt="Screenshot 2026-07-28 at 10 36 18 AM" src="https://github.com/user-attachments/assets/054d95ed-29d8-49c6-b9c8-6c71b57ae685" />
