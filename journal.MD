@@ -3,6 +3,12 @@ all logs from forge that predate my stardance documentation are here! if you wan
 FOR HORIZONS REVIEWERS
 https://lapse.hackclub.com/user/@nikolai_gogol444
 that is the link to my lapse page. all pcb time lapses are easily found beacause they are conviniently named. the EARLIEST time lapse that Is part of my horizons project and is documented on the code file that I am attaching my horizons time lapses to is schematic design from july 20, 2026 at 3:22am. any timelapse that predates that Is asociated with my stardance project and can be ignored. I Will start documenting journal entries for my horizons project here.
+ENTRY 2 FRIDAY AUG 7
+
+
+alot of work since my last entry! after tracing the 50 ohm traces on my controller, I ran it against the DRC and fixed any issues that came up, then I organized the silkscreens, and added some decals! here is the finished pcb design, that is available in the controller pcb stuff file. 
+
+after that, I began working on the controller pcb. I reused the schematic for my controller, then deleted the joysticks and battery setup, and kept the things like the rf schematic that I would need for my controll pcb. this pcb required me to keep within a tight 52 by 52 mm square in order to fit in the chasis of my robot. I acheived this by being clever with part placement, optimizing my esp chips pinout and using the backside of my pcb. my pcb includes a mpu6050, a tca multiplexer, test points to connect to my motors and encoders, drv8833 motor drivers, usbc ports for serial data and flashing, and a charge system that allows power to come from either the battery or the usbc ports, and steps down some of that voltage to 3.3v to run logic parts. I used a 4 layer pcb to better isolate the rf signal, and allow for two signal planes. I plan to purchase these pcbs from pcbbuy using my own money when I get the chance. 
 
 ENTRY 1:
 I didnt know I was supposed to do journal entries, so Ill do one big one here to document the past 3 or so days of pcb work, and go consistently from there.
