@@ -7,6 +7,11 @@ UPDATE: as of tuesday july 28 1:18 am, I have finished the controller pcb and up
 <img width="1470" height="956" alt="Screenshot 2026-07-28 at 10 36 25 AM" src="https://github.com/user-attachments/assets/b71b5da1-416d-4a28-b90e-c40c97f113d9" />
 <img width="1470" height="956" alt="Screenshot 2026-07-28 at 10 36 18 AM" src="https://github.com/user-attachments/assets/054d95ed-29d8-49c6-b9c8-6c71b57ae685" />
 <img width="1470" height="956" alt="Screenshot 2026-07-28 at 10 37 19 AM" src="https://github.com/user-attachments/assets/e89ec79b-334d-4463-b576-3a13a0c1f00d" />
+8/31/26 UPDATE
+after more work, I have resubmitted for hour aproval. since my last update to this repo, I have ordered my finished boards for manufacturing and recieved them in the mail. here are some images. I have begun assembly, first by harvesting some chips from old devboards and breakout modules. after that I hit a wall when I realized that salvaging tiny capacitors and resistors would be impossible, so now I am working on getting all my parts ordered so I can assemble. hopefully I get my hours aprovved soon so I can buy digikey grants, because that would seriously help me greatly. 
+<img width="3024" height="4032" alt="IMG_1530" src="https://github.com/user-attachments/assets/571bee08-e54c-47a5-bb12-8d9cb1149eb7" />
+
+<img width="3024" height="4032" alt="IMG_1531" src="https://github.com/user-attachments/assets/a285e2ba-9cb1-4a60-aac2-5f4c3609aad7" />
 
 UPDATE: as of monday july 27th 11:36 pm, I have uploaded new gerbers that are of the pcb fully routed and corrected against the DRC. if wanted, the pcb could now be purchased and it would function, but the silkscreen labels would be a mess. im now going to arrange the silkscreen, then begin on the swerve drive brain pcb. 
 NEW NOTE AFTER SECOND REJECTION: 
